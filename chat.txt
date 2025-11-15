@@ -1,0 +1,17 @@
+while True:
+    text = input("You: ")
+
+    if "hi" in text.lower():
+        print("Bot: Hello! How are you?")
+    elif "fine" in text.lower():
+        print("Bot:nice!")
+    elif "how was your day?" in text.lower():
+        print("Bot:busy")
+    elif "ohh busy ai tool" in text.lower():
+        print("Bot:haha thanks")
+    elif "ok then stay busy" in text.lower():
+        print("Bot:ok!")
+    elif "bye" in text.lower():
+        print("Bot:bye!")
+    else:
+        print("Bot: I don't understand.")
